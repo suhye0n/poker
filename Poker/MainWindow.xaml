@@ -1,0 +1,35 @@
+﻿<Window x:Class="Poker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Poker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Button DockPanel.Dock="Bottom" 
+                x:Name="BtnDeal"
+                Content="카드 분배"
+                Padding="8"
+                Margin="16" 
+                Click="OnDeal"/>
+        <UniformGrid Rows="1"
+                     Background="#040">
+            <Image x:Name="Card1"
+               Stretch="None"
+               Source="images/black_joker.png"/>
+            <Image x:Name="Card2"
+               Stretch="None"
+               Source="images/black_joker.png"/>
+            <Image x:Name="Card3"
+               Stretch="None"
+               Source="images/black_joker.png"/>
+            <Image x:Name="Card4"
+               Stretch="None"
+               Source="images/black_joker.png"/>
+            <Image x:Name="Card5"
+               Stretch="None"
+               Source="images/black_joker.png"/>
+        </UniformGrid>
+    </DockPanel>
+</Window>
