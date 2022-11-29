@@ -13,6 +13,13 @@
                 Padding="8"
                 Margin="16" 
                 Click="OnDeal"/>
+        <Label DockPanel.Dock="Bottom" 
+               Padding="8"
+               Name="L1"
+               Margin="16" 
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               Content=" " FontSize="20"></Label>
         <UniformGrid Rows="1"
                      Background="#040">
             <Image x:Name="Card1"
